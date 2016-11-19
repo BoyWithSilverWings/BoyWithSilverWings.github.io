@@ -1,0 +1,58 @@
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+.page-header {
+	text-align: right;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.item>img {
+	width: 100%;
+	height: 600px !important;
+}
+
+section {
+	margin: 50px 0;
+}
+
+/*Projects Section*/
+
+.thumbnail>img {
+	width: 100%;
+	height: 230px;
+}
+
+/*Footer Styles*/
+
+footer {
+	background: #000;
+	width: 100%;
+	color: #DCDCDC;
+	font-family: 'Roboto', sans-serif;
+	padding: 40px;
+}
+
+.social-media-icon {
+	list-style-type: none;
+	display: inline;
+	padding: 0 10px;
+}
+
+.social-media-icon>a>img:hover {
+	width: 7%;
+}
